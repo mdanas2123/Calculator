@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: black;
+}
+
+.text-white {
+  color: white;
+  margin-top: 10px;
+  font-size: 1.1rem;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+}
+
+.calculator {
+  width: 550px;
+}
+
+.display-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.display {
+  width: 75%;
+}
+
+.other-btns {
+  width: 24%;
+  display: flex;
+  flex-direction: column;
+}
+
+.other-btns > button {
+  height: 100px;
+  width: 100%;
+}
+
+.AC-btn {
+  margin-top: 10px;
+}
+
+.input-field,
+.answer-field {
+  width: 100%;
+  height: 100px;
+  padding: 20px;
+  font-size: 40px;
+  border: none;
+  border-radius: 5px;
+  background: white;
+  text-align: left;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.answer-field {
+  margin-top: 10px;
+}
+
+.btn-wrapper {
+  margin-top: 10px;
+}
+
+.btn-container {
+  margin-top: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  width: 24%;
+  height: 100px;
+  padding: 20px;
+  font-size: 30px;
+  background: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.colored-btn {
+  background-color: aqua;
+  color: black;
+}
+
+.colored-btn:active {
+  background-color: chocolate;
+  color: white;
+}
+
+.span-two {
+  width: 50%;
+}
+
+button:active {
+  background: lightgray;
+}
